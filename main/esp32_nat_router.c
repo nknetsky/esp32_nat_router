@@ -415,8 +415,8 @@ void wifi_init(const char* ssid, const char* ent_username, const char* ent_ident
         .ap = {
             .channel = 0,
             .authmode = WIFI_AUTH_WPA2_PSK,
-            .ssid_hidden = 0,
-            .max_connection = 8,
+            .ssid_hidden = 1,
+            .max_connection = 1,
             .beacon_interval = 100,
         }
     };
